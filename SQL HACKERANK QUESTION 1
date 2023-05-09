@@ -1,0 +1,28 @@
+###1 Revising the Select QueryFField	Typeield	Type-1
+
+
+-----1 .Query all columns for all American cities in CITY with populations larger than 100,000. The CountryCode for America is USA.
+
+Input Format
+
+The CITY table is described as follows:
+
+
+
+Field	Type
+ID	NUMBER
+NAME	VARCHAR2(17)
+COUNTRY CODE	VARCHAR2(3)
+DISTRICT	VARCHAR2(20)
+POPULATION	NUMBER
+
+
+solution :-
+
+           SELECT * FROM CITY WHERE POPULATIONS >100000  AND COUNTRYCODE = 'USA';
+           
+           
+           
+ NOTE:-
+ 
+            for selecting all the queries you are using *  and the condition depend on WHERE  
